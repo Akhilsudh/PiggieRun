@@ -1,0 +1,82 @@
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<script src="layout.js"></script>
+	<script>
+		function start()
+{
+    var simpleLevelPlan = [
+    [ "                      ",
+      "           ooo        ",
+      "  x                  !",
+      "  x                  !",
+      "  x        	         !",
+      "  x @                !",
+      "  xxxxxx!!!xxxxxxxxx !",
+      "  xxxxxxxxxxxxxxxxxxxx",
+      "                      "
+    ],
+    [
+      "                      ",
+      "                      ",
+      "  x              =xx  ",
+      "  x         ooo   vx  ",
+      "  x @      xxxxx   x  ",
+      "  xxxxx            x  ",
+      "      x!!!!!!!!!!!xx  ",
+      "      xxxxxxxxxxxxxx  ",
+      "                      "
+    ],
+     ["                                    x x xxx  ",
+      "                                           x ",
+      "  x                      ooo               x ",
+      " 											",
+      "												",
+      "  x         ooo  xxxxx             xoxoxox x ",
+      "  x @      xxxxxxxvxxx   xxxxxx    xxxxxxx x ",
+      "  xxxxx                  xxxxxx            x ",
+      "   x!!!!!!!!!!!!x!!!!!!!!!!!!!!!!!!!!!!!!!!x ",
+      "   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ",
+      "                                             "
+    ],
+     ["                      ",
+      "                      ",
+      "  x              = x  ",
+      "  x         ooo    x  ",
+      "  x @      xxxxx   x  ",
+      "  xxxxx            x  ",
+      "      x!!!!!!!!!!!!x  ",
+      "      xxxxxxxxxxxxxx  ",
+      "                      ",
+      "      xxxxxxxxxxxxxx  ",
+      "      xxxxxxxxxxxxxx  "
+
+    ],
+     ["                      ",
+      "                      ",
+      "  x              = x  ",
+      "  x         ooo    x  ",
+      "  x @      xxxxx   x  ",
+      "  xxxxx            x  ",
+      "      x!!!!!!!!!!!!x  ",
+      "      xxxxxxxxxxxxxx  ",
+      "                      ",
+      "      xxxxxxxxxxxxxx  ",
+      "      xxxxxxxxxxxxxx  "
+    ]];
+      runGame(simpleLevelPlan, DOMDisplay);
+      //var simpleLevel = new Level(simpleLevelPlan);
+      //var display = new DOMDisplay(document.body, simpleLevel);
+}
+	</script>
+
+</head>
+
+<body id="ram">
+	<script>
+		start()
+	</script>
+</body>
+
+</html>
